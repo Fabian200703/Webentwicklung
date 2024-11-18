@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="43d67715-8003-4ca8-b058-be6c546aa0a4" name="UniWebspace" url="http://hosting.wi1cm.uni-trier.de/public/">
+        <fileTransfer accessType="FTPS" host="hosting.wi1cm.uni-trier.de" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="d1c5f0a1-2e7d-4f91-a898-f9b75e406de0" name="XAMPP" url="http://localhost">
+        <fileTransfer mountedRoot="J:\Webdev\XamppDeploy" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
